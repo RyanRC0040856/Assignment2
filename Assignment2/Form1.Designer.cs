@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label8 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -47,24 +48,23 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,7 +112,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(293, 29);
+            this.button2.Location = new System.Drawing.Point(98, 29);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 49);
             this.button2.TabIndex = 9;
@@ -182,13 +182,23 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(98, 29);
+            this.button1.Location = new System.Drawing.Point(293, 29);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 49);
             this.button1.TabIndex = 1;
             this.button1.Text = "Volume";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Assignment2.Properties.Resources.cuboid;
+            this.pictureBox1.Location = new System.Drawing.Point(80, 47);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1034, 469);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // tabPage2
             // 
@@ -261,6 +271,16 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Assignment2.Properties.Resources.Sphere;
+            this.pictureBox2.Location = new System.Drawing.Point(94, 69);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(994, 449);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.textBox6);
@@ -280,83 +300,19 @@
             this.tabPage3.Text = "Cone";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // textBox6
             // 
-            this.pictureBox1.Image = global::Assignment2.Properties.Resources.cuboid;
-            this.pictureBox1.Location = new System.Drawing.Point(80, 47);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1034, 469);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.textBox6.Location = new System.Drawing.Point(626, 264);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.TabIndex = 8;
             // 
-            // pictureBox2
+            // textBox5
             // 
-            this.pictureBox2.Image = global::Assignment2.Properties.Resources.Sphere;
-            this.pictureBox2.Location = new System.Drawing.Point(94, 69);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(994, 449);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Assignment2.Properties.Resources.Cone;
-            this.pictureBox3.Location = new System.Drawing.Point(53, 34);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1025, 493);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(53, 34);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(135, 65);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "Surface area";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.Button5_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(194, 60);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(68, 13);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Surface area";
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(53, 182);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(135, 69);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "Volume";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.Button6_Click);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(194, 210);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(42, 13);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "Volume";
-            this.label10.Click += new System.EventHandler(this.Label10_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(655, 248);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(38, 13);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "Height";
+            this.textBox5.Location = new System.Drawing.Point(596, 480);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 7;
             // 
             // label12
             // 
@@ -368,19 +324,63 @@
             this.label12.Text = "Raduis";
             this.label12.Click += new System.EventHandler(this.Label12_Click);
             // 
-            // textBox5
+            // label11
             // 
-            this.textBox5.Location = new System.Drawing.Point(596, 480);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 7;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(655, 248);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(38, 13);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "Height";
             // 
-            // textBox6
+            // label10
             // 
-            this.textBox6.Location = new System.Drawing.Point(626, 264);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 8;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(194, 210);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(42, 13);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "Volume";
+            this.label10.Click += new System.EventHandler(this.Label10_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(53, 182);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(135, 69);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "Volume";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.Button6_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(194, 60);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(68, 13);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Surface area";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(53, 34);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(135, 65);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "Surface area";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Assignment2.Properties.Resources.Cone;
+            this.pictureBox3.Location = new System.Drawing.Point(53, 34);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(1025, 493);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // Form1
             // 
@@ -394,12 +394,12 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
