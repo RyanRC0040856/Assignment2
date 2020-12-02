@@ -161,7 +161,7 @@ namespace Assignment2
             }
         }
 
-        private void Label12_Click(object sender, EventArgs e)
+        private void Label12_Click(object sender, EventArgs e)   
         {
 
         }
